@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "luo-skills",
+  "version": "1.0.0",
+  "description": "为Claude Code、Opencode等平台打造棒棒的Skill市场",
+  "owner": {
+    "name": "luojiaaoo",
+  },
+  "plugins": [
+    {
+      "name": "we-mp-rss-export-markdown",
+      "description": "本技能用于导出we-mp-rss平台中订阅的微信公众号文章，以markdown文件导出，当用户需要获取we-mp-rss平台中订阅的微信公众号文章时触发",
+      "source": "./we-mp-rss-export-markdown",
+      "category": "get-content"
+    },
+    {
+      "name": "publish-article-to-csdn",
+      "description": "本技能用于发布csdn文章，当用户需要发布csdn文章时触发",
+      "source": "./push-article-to-csdn",
+      "category": "publish-article"
+    }
+  ]
+}
