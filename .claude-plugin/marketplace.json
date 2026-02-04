@@ -15,9 +15,15 @@
     },
     {
       "name": "feishu-custom-bot",
-      "description": "本技能用于向飞书自定义机器人Webhook地址发送markdown格式卡片消息，当用户需要通过自定义机器人发送消息时触发 ",
+      "description": "本技能用于向飞书自定义机器人Webhook地址发送markdown格式卡片消息，当用户需要通过自定义机器人发送消息时触发",
       "source": "./feishu-custom-bot",
       "category": "message"
+    },
+    {
+      "name": "captcha-recognition",
+      "description": "Recognize captcha codes from images using vision LLM. Use when need to identify verification codes for automated login or form submission.",
+      "source": "./captcha-recognition",
+      "category": "vision"
     }
   ]
 }
