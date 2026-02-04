@@ -14,10 +14,10 @@
       "category": "get-content"
     },
     {
-      "name": "publish-article-to-csdn",
-      "description": "本技能用于发布csdn文章，当用户需要发布csdn文章时触发",
-      "source": "./push-article-to-csdn",
-      "category": "publish-article"
+      "name": "feishu-custom-bot",
+      "description": "本技能用于向飞书自定义机器人Webhook地址发送markdown格式卡片消息，当用户需要通过自定义机器人发送消息时触发 ",
+      "source": "./feishu-custom-bot",
+      "category": "message"
     }
   ]
 }
